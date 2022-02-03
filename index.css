@@ -76,7 +76,6 @@ body {
 /* ---------------------------------------------------------------------------------- Header
 ---------------------------------------------------------------------------------------------------------------------- */
 header {
-  max-width: 550px;
   margin: 0 auto;
   padding: 1.125rem 0 0;
   background: url(./images/mobile/image-header.jpg) no-repeat left 0 bottom 0;
@@ -183,7 +182,6 @@ header {
 }
 @media (min-width: 768px) {
   header {
-    max-width: unset;
     padding-top: 3rem;
     background: url(./images/desktop/image-header.jpg) no-repeat left 50% bottom
       0;
@@ -204,7 +202,7 @@ header {
     align-items: center;
     background-color: transparent;
     display: flex;
-    gap: 1.25rem;
+    gap: 3rem;
     max-height: initial;
   }
   .headerNav .nav-item {
@@ -233,7 +231,6 @@ header {
 /* ---------------------------------------------------------------------------------- Services
 ---------------------------------------------------------------------------------------------------------------------- */
 #services {
-  max-width: 550px;
   margin: 0 auto;
 }
 .service-txt-cont {
@@ -280,6 +277,9 @@ header {
   height: 10px;
   width: 110%;
   background-color: hsla(7, 99%, 70%, 0.3);
+}
+.service-block img {
+  width: 100%;
 }
 .service-block--back-img--graphic {
   background: url(./images/mobile/image-graphic-design.jpg) no-repeat;
@@ -355,7 +355,6 @@ header {
     padding: 0;
     text-align: center;
     flex-basis: 70%;
-    max-width: 400px;
   }
   .service-txt-cont--graphic .service__title,
   .service-txt-cont--graphic .service__desc,
